@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, cyan, darkblue); /* Gradient background */
+            color: black; /* Text color set to black */
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column;
+            min-height: 100vh; /* Make the body fill the viewport height */
+        }
+
+        header {
+            background-color: #333;
+            color: white; /* Header text stays white */
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: white; /* Navigation links stay white */
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            flex-grow: 1; /* Allow main content to take up remaining space */
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            border-radius: 5px;
+            text-align: center; /* Center-align the text in the main content */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center; /* Center-align the paragraph text */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Interactive Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="signup.html" target="_blank">Sign-up</a></li>
+            <li><a href="login.html" target="_blank">Login</a></li>
+            <li><a href="Activity7.html" target="_blank">Activity 7</a></li>
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li><a href="list.html" target="_blank">List</a></li>
+            <li><a href="Table.html" target="_blank">Table</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome!</h1>
+        <p>This is an interactive page that provides links to various activities. Feel free to explore them and discover new things.</p>
+    </main>
+
+</body>
+</html>

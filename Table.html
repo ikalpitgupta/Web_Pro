@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table with Hyperlinks and Images</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        .blue { background-color: #add8e6; }
+        .green { background-color: #90ee90; }
+        .red { background-color: #f08080; }
+        .pink { background-color: #ffc0cb; }
+        .affirmation {
+            font-family: Arial, sans-serif;
+            color: #2e8b57;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<h3 style="text-align: center;">Use the tables as depicted in the following figure</h3>
+
+<table>
+    <tr>
+        <td rowspan="2">
+            <img src="https://images.pexels.com/photos/2649841/pexels-photo-2649841.jpeg?cs=srgb&dl=pexels-jose-almeida-999955-2649841.jpg&fm=jpg" height="100">
+        </td>
+        <td class="blue">r1c3</td>
+        <td class="affirmation">I am confident and capable.</td>
+        <td class="affirmation">I can achieve anything I set my mind to.</td>
+    </tr>
+    <tr>
+        <td><a href="mailto:your_email@example.com">your_email@example.com</a></td>
+        <td colspan="2" class="affirmation">I grow stronger every day.</td>
+    </tr>
+    <tr>
+        <td><a href="home.html">Home</a></td>
+        <td colspan="2">
+            <a href="https://images.pexels.com/photos/2649841/pexels-photo-2649841.jpeg?cs=srgb&dl=pexels-jose-almeida-999955-2649841.jpg&fm=jpg" target="_blank">
+                Click to View Image
+            </a>
+        </td>
+        <td class="affirmation">I attract positivity and success.</td>
+    </tr>
+    <tr>
+        <td class="red">r4c1</td>
+        <td class="pink">r4c2</td>
+        <td class="affirmation">I believe in my dreams.</td>
+        <td class="affirmation">I am grateful for all that I have.</td>
+    </tr>
+    <tr>
+        <td class="green">r5c1</td>
+        <td class="affirmation">I am surrounded by love and support.</td>
+        <td class="affirmation">I choose happiness every day.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+        <td class="affirmation">I am constantly learning and growing.</td>
+    </tr>
+</table>
+
+</body>
+</html>
